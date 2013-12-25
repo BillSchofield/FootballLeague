@@ -15,8 +15,8 @@ public class Main {
     private static List<Player> leaguePlayers() {
         List<Player> players = new ArrayList<Player>();
         Player[] arrayOfPlayers = {
-                new Player("Bill"),
-                new Player("Pat")
+                new Player("Bill", "Michigan", "14", "21"),
+                new Player("Pat", "Michigan", "7", "20")
         };
         players.addAll(asList(arrayOfPlayers));
         return players;

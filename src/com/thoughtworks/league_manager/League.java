@@ -3,6 +3,8 @@ package com.thoughtworks.league_manager;
 import java.io.PrintStream;
 import java.util.List;
 
+import static java.lang.String.format;
+
 public class League {
     private PrintStream printStream;
     private List<Player> players;
@@ -13,7 +15,8 @@ public class League {
     }
 
     public void listPlayers() {
-        System.out.println("All Players in League");
+        printStream.println("All Players in League");
+        printStream.println(format("%-15s %-15s %-15s %-15s", "Name", "Team", "Number", "Age"));
         for (Player player : players) {
             printStream.println(player);
         }
