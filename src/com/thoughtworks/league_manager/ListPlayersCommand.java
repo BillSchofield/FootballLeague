@@ -11,4 +11,9 @@ public class ListPlayersCommand implements Command{
     public void execute() {
         league.listPlayers();
     }
+
+    @Override
+    public String name(){
+        return "List Players";
+    }
 }
