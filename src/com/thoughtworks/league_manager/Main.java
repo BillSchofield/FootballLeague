@@ -9,7 +9,11 @@ public class Main {
 
     public static void main(String[] args) {
         List<Player> players = leaguePlayers();
-        new League(System.out, players).listPlayers();
+        League league = new League(System.out, players);
+        ListPlayersCommand listPlayersCommand = new ListPlayersCommand(league);
+        Menu menu = new Menu(listPlayersCommand);
+        Command command = menu.userOption();
+        command.execute();
     }
 
     private static List<Player> leaguePlayers() {
