@@ -19,4 +19,8 @@ public class Player {
     public String toString(){
         return format("%-15s %-15s %-15s %-15s", name, team, number, age);
     }
+
+    public boolean hasName(String name) {
+        return this.name.equals(name);
+    }
 }

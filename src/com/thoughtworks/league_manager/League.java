@@ -21,4 +21,13 @@ public class League {
             printStream.println(player);
         }
     }
+
+    public Player findPlayer(String name) {
+        for (Player player : players) {
+            if (player.hasName(name)){
+                return player;
+            }
+        }
+        return null;
+    }
 }

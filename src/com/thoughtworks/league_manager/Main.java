@@ -12,14 +12,16 @@ import static java.util.Arrays.asList;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        List<Player> players = leaguePlayers();
         PrintStream printStream = System.out;
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+        List<Player> players = leaguePlayers();
         League league = new League(printStream, players);
 
         List<Command> commands = new ArrayList<Command>();
         commands.add(new ListPlayersCommand(league));
+        commands.add(new FindPlayerCommand(printStream, bufferedReader, league));
 
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         Menu menu = new Menu(printStream, bufferedReader, commands);
         Command command = menu.userOption();
         command.execute();
