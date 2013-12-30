@@ -1,6 +1,7 @@
 package com.thoughtworks.league_manager;
 
 import java.io.PrintStream;
+import java.util.ArrayList;
 import java.util.List;
 
 import static java.lang.String.format;
@@ -8,17 +9,22 @@ import static java.lang.String.format;
 public class League {
     private PrintStream printStream;
     private List<Player> players;
+    private List<Coach> coaches;
 
-    public League(PrintStream printStream, List<Player> players) {
+    public League(PrintStream printStream, List<Player> players, List<Coach> coaches) {
         this.printStream = printStream;
         this.players = players;
+        this.coaches = coaches;
     }
 
     public void listPlayers() {
-        printStream.println("All Players in League");
-        printStream.println(format("%-15s %-15s %-15s %-15s", "Name", "Team", "Number", "Age"));
-        for (Player player : players) {
-            printStream.println(player);
+        List<LeagueMember> leagueMembers = new ArrayList<LeagueMember>();
+        leagueMembers.addAll(players);
+        leagueMembers.addAll(coaches);
+        printStream.println("All Members in League");
+        printStream.println(format("%-15s %-15s %-20s %-15s", "Name", "Team", "Number/Title", "Age"));
+        for (LeagueMember leagueMember : leagueMembers) {
+            printStream.println(leagueMember.formattedInformation());
         }
     }
 

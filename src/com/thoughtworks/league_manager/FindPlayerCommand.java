@@ -27,7 +27,7 @@ public class FindPlayerCommand implements Command {
 
         Player foundPlayer = league.findPlayer(playerName);
         if (foundPlayer != null){
-            printStream.println(foundPlayer.toString());
+            printStream.println(foundPlayer.formattedInformation());
         }
         else {
             printStream.println("Player not found in League.");

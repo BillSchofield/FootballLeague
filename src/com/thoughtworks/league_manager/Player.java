@@ -2,7 +2,7 @@ package com.thoughtworks.league_manager;
 
 import static java.lang.String.format;
 
-public class Player {
+public class Player implements LeagueMember{
     private String name;
     private String team;
     private String number;
@@ -16,8 +16,8 @@ public class Player {
     }
 
     @Override
-    public String toString(){
-        return format("%-15s %-15s %-15s %-15s", name, team, number, age);
+    public String formattedInformation(){
+        return format("%-15s %-15s %-20s %-15s", name, team, number, age);
     }
 
     public boolean hasName(String name) {

@@ -16,7 +16,8 @@ public class Main {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         List<Player> players = leaguePlayers();
-        League league = new League(printStream, players);
+        List<Coach> coaches = leagueCoaches();
+        League league = new League(printStream, players, coaches);
 
         List<Command> commands = new ArrayList<Command>();
         commands.add(new ListPlayersCommand(league));
@@ -30,10 +31,20 @@ public class Main {
     private static List<Player> leaguePlayers() {
         List<Player> players = new ArrayList<Player>();
         Player[] arrayOfPlayers = {
-                new Player("Bill", "Michigan", "14", "21"),
-                new Player("Pat", "Michigan", "7", "20")
+                new Player("Joe Bob", "Michigan", "14", "21"),
+                new Player("Mary Sue", "Michigan", "7", "20")
         };
         players.addAll(asList(arrayOfPlayers));
         return players;
+    }
+
+    private static List<Coach> leagueCoaches() {
+        List<Coach> coaches = new ArrayList<Coach>();
+        Coach[] arrayOfCoaches = {
+                new Coach("Bill", "Michigan", "Special Teams Coach"),
+                new Coach("Pat", "Michigan", "Head Coach")
+        };
+        coaches.addAll(asList(arrayOfCoaches));
+        return coaches;
     }
 }
