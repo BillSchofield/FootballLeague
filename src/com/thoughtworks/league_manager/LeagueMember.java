@@ -2,7 +2,7 @@ package com.thoughtworks.league_manager;
 
 public abstract class LeagueMember {
     protected final String name;
-    protected final String team;
+    protected String team;
 
     protected LeagueMember(String name, String team) {
         this.name = name;

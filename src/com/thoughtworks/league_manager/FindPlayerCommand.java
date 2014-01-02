@@ -1,29 +1,21 @@
 package com.thoughtworks.league_manager;
 
-import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.PrintStream;
 
 public class FindPlayerCommand implements Command {
     private PrintStream printStream;
-    private BufferedReader bufferedReader;
     private League league;
+    private UserInput userInput;
 
-    public FindPlayerCommand(PrintStream printStream, BufferedReader bufferedReader, League league) {
+    public FindPlayerCommand(PrintStream printStream, UserInput userInput, League league) {
         this.printStream = printStream;
-        this.bufferedReader = bufferedReader;
+        this.userInput = userInput;
         this.league = league;
     }
 
     @Override
     public void execute() {
-        printStream.println("Enter the name of the player to find:");
-        String playerName;
-        try {
-            playerName = bufferedReader.readLine();
-        } catch (IOException e) {
-            throw new UncheckedIOException();
-        }
+        String playerName = userInput.input("Enter the name of the player to find:");
 
         Player foundPlayer = league.findPlayer(playerName);
         if (foundPlayer != null){

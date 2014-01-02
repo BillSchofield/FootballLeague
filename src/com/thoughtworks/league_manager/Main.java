@@ -14,19 +14,31 @@ public class Main {
     public static void main(String[] args) throws IOException {
         PrintStream printStream = System.out;
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        UserInput userInput = new UserInput(printStream, bufferedReader);
 
         List<Player> players = leaguePlayers();
         List<Coach> coaches = leagueCoaches();
         League league = new League(printStream, players, coaches);
 
         List<Command> commands = new ArrayList<Command>();
-        commands.add(new ListPlayersCommand(league));
-        commands.add(new FindPlayerCommand(printStream, bufferedReader, league));
-        commands.add(new DisplayTeamCommand(printStream, bufferedReader, league));
+        QuitCommand quit = createCommands(printStream, userInput, league, commands);
 
         Menu menu = new Menu(printStream, bufferedReader, commands);
         Command command = menu.userOption();
-        command.execute();
+        while (command != quit){
+            command.execute();
+            command = menu.userOption();
+        }
+    }
+
+    private static QuitCommand createCommands(PrintStream printStream, UserInput userInput, League league, List<Command> commands) {
+        commands.add(new ListPlayersCommand(league));
+        commands.add(new FindPlayerCommand(printStream, userInput, league));
+        commands.add(new DisplayTeamCommand(printStream, userInput, league));
+        commands.add(new TradePlayerCommand(printStream, userInput, league));
+        QuitCommand quit = new QuitCommand();
+        commands.add(quit);
+        return quit;
     }
 
     private static List<Player> leaguePlayers() {
