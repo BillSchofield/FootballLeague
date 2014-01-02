@@ -1,5 +1,21 @@
 package com.thoughtworks.league_manager;
 
-public interface LeagueMember {
-    String formattedInformation();
+public abstract class LeagueMember {
+    protected final String name;
+    protected final String team;
+
+    protected LeagueMember(String name, String team) {
+        this.name = name;
+        this.team = team;
+    }
+
+    public abstract String formattedInformation();
+
+    public boolean hasName(String name) {
+        return this.name.equals(name);
+    }
+
+    boolean isOn(String team){
+        return this.team.equals(team);
+    }
 }

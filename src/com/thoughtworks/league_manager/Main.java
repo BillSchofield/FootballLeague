@@ -22,6 +22,7 @@ public class Main {
         List<Command> commands = new ArrayList<Command>();
         commands.add(new ListPlayersCommand(league));
         commands.add(new FindPlayerCommand(printStream, bufferedReader, league));
+        commands.add(new DisplayTeamCommand(printStream, bufferedReader, league));
 
         Menu menu = new Menu(printStream, bufferedReader, commands);
         Command command = menu.userOption();

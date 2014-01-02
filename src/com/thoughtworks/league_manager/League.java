@@ -36,4 +36,19 @@ public class League {
         }
         return null;
     }
+
+    public List<LeagueMember> team(String teamName) {
+        List<LeagueMember> team = new ArrayList<LeagueMember>();
+        for (LeagueMember player : players) {
+            if (player.isOn(teamName)){
+                team.add(player);
+            }
+        }
+        for (LeagueMember coach : coaches) {
+            if (coach.isOn(teamName)){
+                team.add(coach);
+            }
+        }
+        return team;
+    }
 }
