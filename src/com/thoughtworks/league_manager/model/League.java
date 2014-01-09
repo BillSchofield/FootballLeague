@@ -1,4 +1,4 @@
-package com.thoughtworks.league_manager;
+package com.thoughtworks.league_manager.model;
 
 import java.io.PrintStream;
 import java.util.ArrayList;

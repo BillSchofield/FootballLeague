@@ -1,4 +1,4 @@
-package com.thoughtworks.league_manager;
+package com.thoughtworks.league_manager.model;
 
 public abstract class LeagueMember {
     protected final String name;

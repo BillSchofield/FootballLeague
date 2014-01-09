@@ -1,4 +1,4 @@
-package com.thoughtworks.league_manager;
+package com.thoughtworks.league_manager.model;
 
 import static java.lang.String.format;
 

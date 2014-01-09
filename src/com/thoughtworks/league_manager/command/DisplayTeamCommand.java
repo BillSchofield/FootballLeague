@@ -1,4 +1,9 @@
-package com.thoughtworks.league_manager;
+package com.thoughtworks.league_manager.command;
+
+import com.thoughtworks.league_manager.model.League;
+import com.thoughtworks.league_manager.model.LeagueMember;
+import com.thoughtworks.league_manager.menu.LeagueMemberPrinter;
+import com.thoughtworks.league_manager.menu.UserInput;
 
 import java.io.PrintStream;
 import java.util.List;

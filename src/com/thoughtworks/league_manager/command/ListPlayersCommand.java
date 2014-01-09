@@ -1,6 +1,8 @@
-package com.thoughtworks.league_manager;
+package com.thoughtworks.league_manager.command;
 
-public class ListPlayersCommand implements Command{
+import com.thoughtworks.league_manager.model.League;
+
+public class ListPlayersCommand implements Command {
     private League league;
 
     public ListPlayersCommand(League league) {

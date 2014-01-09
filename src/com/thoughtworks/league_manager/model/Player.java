@@ -1,6 +1,5 @@
-package com.thoughtworks.league_manager;
+package com.thoughtworks.league_manager.model;
 
-import static java.lang.String.format;
 
 public class Player extends LeagueMember {
     private String number;
@@ -14,7 +13,7 @@ public class Player extends LeagueMember {
 
     @Override
     public String formattedInformation(){
-        return format("%-15s %-15s %-20s %-15s", name, team, number, age);
+        return String.format("%-15s %-15s %-20s %-15s", name, team, number, age);
     }
 
     public void setTeam(String team) {

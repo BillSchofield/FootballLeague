@@ -1,4 +1,4 @@
-package com.thoughtworks.league_manager;
+package com.thoughtworks.league_manager.menu;
 
 import java.io.BufferedReader;
 import java.io.IOException;

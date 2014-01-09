@@ -1,4 +1,11 @@
-package com.thoughtworks.league_manager;
+package com.thoughtworks.league_manager.main;
+
+import com.thoughtworks.league_manager.command.*;
+import com.thoughtworks.league_manager.menu.Menu;
+import com.thoughtworks.league_manager.menu.UserInput;
+import com.thoughtworks.league_manager.model.Coach;
+import com.thoughtworks.league_manager.model.League;
+import com.thoughtworks.league_manager.model.Player;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,25 +27,23 @@ public class Main {
         List<Coach> coaches = leagueCoaches();
         League league = new League(printStream, players, coaches);
 
-        List<Command> commands = new ArrayList<Command>();
-        QuitCommand quit = createCommands(printStream, userInput, league, commands);
+        List<Command> commands = createCommands(printStream, userInput, league);
 
         Menu menu = new Menu(printStream, bufferedReader, commands);
-        Command command = menu.userOption();
-        while (command != quit){
-            command.execute();
-            command = menu.userOption();
+        menu.chooseOption();
+        while (!menu.userDone()){
+            menu.executeCurrentCommand();
+            menu.chooseOption();
         }
     }
 
-    private static QuitCommand createCommands(PrintStream printStream, UserInput userInput, League league, List<Command> commands) {
+    private static  List<Command> createCommands(PrintStream printStream, UserInput userInput, League league) {
+        List<Command> commands = new ArrayList<Command>();
         commands.add(new ListPlayersCommand(league));
         commands.add(new FindPlayerCommand(printStream, userInput, league));
         commands.add(new DisplayTeamCommand(printStream, userInput, league));
         commands.add(new TradePlayerCommand(printStream, userInput, league));
-        QuitCommand quit = new QuitCommand();
-        commands.add(quit);
-        return quit;
+        return commands;
     }
 
     private static List<Player> leaguePlayers() {

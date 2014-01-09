@@ -1,4 +1,4 @@
-package com.thoughtworks.league_manager;
+package com.thoughtworks.league_manager.command;
 
 public interface Command {
     void execute();
