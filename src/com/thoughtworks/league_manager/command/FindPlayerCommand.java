@@ -1,18 +1,13 @@
 package com.thoughtworks.league_manager.command;
 
-import com.thoughtworks.league_manager.model.League;
-import com.thoughtworks.league_manager.model.Player;
 import com.thoughtworks.league_manager.menu.UserInput;
-
-import java.io.PrintStream;
+import com.thoughtworks.league_manager.model.League;
 
 public class FindPlayerCommand implements Command {
-    private PrintStream printStream;
     private League league;
     private UserInput userInput;
 
-    public FindPlayerCommand(PrintStream printStream, UserInput userInput, League league) {
-        this.printStream = printStream;
+    public FindPlayerCommand(UserInput userInput, League league) {
         this.userInput = userInput;
         this.league = league;
     }
@@ -20,14 +15,7 @@ public class FindPlayerCommand implements Command {
     @Override
     public void execute() {
         String playerName = userInput.input("Enter the name of the player to find:");
-
-        Player foundPlayer = league.findPlayer(playerName);
-        if (foundPlayer != null){
-            printStream.println(foundPlayer.formattedInformation());
-        }
-        else {
-            printStream.println("Player not found in League.");
-        }
+        league.displayPlayer(playerName);
     }
 
     @Override

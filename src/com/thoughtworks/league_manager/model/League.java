@@ -1,18 +1,24 @@
 package com.thoughtworks.league_manager.model;
 
-import java.io.PrintStream;
+import com.thoughtworks.league_manager.menu.LeagueMemberPrinter;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import static java.lang.String.format;
-
 public class League {
-    private PrintStream printStream;
+    private static final LeagueMember nullPlayer = new LeagueMember("", "") {
+        @Override
+        public String formattedInformation() {
+            return "Player not found.";
+        }
+    };
+
     private List<Player> players;
     private List<Coach> coaches;
+    private LeagueMemberPrinter leagueMemberPrinter;
 
-    public League(PrintStream printStream, List<Player> players, List<Coach> coaches) {
-        this.printStream = printStream;
+    public League(LeagueMemberPrinter leagueMemberPrinter, List<Player> players, List<Coach> coaches) {
+        this.leagueMemberPrinter = leagueMemberPrinter;
         this.players = players;
         this.coaches = coaches;
     }
@@ -21,23 +27,19 @@ public class League {
         List<LeagueMember> leagueMembers = new ArrayList<LeagueMember>();
         leagueMembers.addAll(players);
         leagueMembers.addAll(coaches);
-        printStream.println("All Members in League");
-        printStream.println(format("%-15s %-15s %-20s %-15s", "Name", "Team", "Number/Title", "Age"));
-        for (LeagueMember leagueMember : leagueMembers) {
-            printStream.println(leagueMember.formattedInformation());
-        }
+        leagueMemberPrinter.print("All Members in League", leagueMembers);
     }
 
-    public Player findPlayer(String name) {
+    private LeagueMember findPlayer(String name, LeagueMember defaultReturn) {
         for (Player player : players) {
             if (player.hasName(name)){
                 return player;
             }
         }
-        return null;
+        return defaultReturn;
     }
 
-    public List<LeagueMember> team(String teamName) {
+    private List<LeagueMember> team(String teamName) {
         List<LeagueMember> team = new ArrayList<LeagueMember>();
         for (LeagueMember player : players) {
             if (player.isOn(teamName)){
@@ -50,5 +52,23 @@ public class League {
             }
         }
         return team;
+    }
+
+    public void displayPlayer(String playerName) {
+        LeagueMember player = findPlayer(playerName, nullPlayer);
+        if (player != nullPlayer){
+            leagueMemberPrinter.print("", player);
+        }
+    }
+
+    public void displayTeam(String teamName) {
+        List<LeagueMember> teamMembers = team(teamName);
+        String title = "Team Members of " + teamName;
+        leagueMemberPrinter.print(title, teamMembers);
+    }
+
+    public void tradePlayer(String playerName, String newTeam) {
+        LeagueMember player = findPlayer(playerName, nullPlayer);
+        player.setTeam(newTeam);
     }
 }

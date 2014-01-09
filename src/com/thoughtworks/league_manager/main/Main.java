@@ -1,6 +1,7 @@
 package com.thoughtworks.league_manager.main;
 
 import com.thoughtworks.league_manager.command.*;
+import com.thoughtworks.league_manager.menu.LeagueMemberPrinter;
 import com.thoughtworks.league_manager.menu.Menu;
 import com.thoughtworks.league_manager.menu.UserInput;
 import com.thoughtworks.league_manager.model.Coach;
@@ -25,11 +26,12 @@ public class Main {
 
         List<Player> players = leaguePlayers();
         List<Coach> coaches = leagueCoaches();
-        League league = new League(printStream, players, coaches);
+        LeagueMemberPrinter leagueMemberPrinter = new LeagueMemberPrinter(printStream);
+        League league = new League(leagueMemberPrinter, players, coaches);
 
-        List<Command> commands = createCommands(printStream, userInput, league);
+        List<Command> commands = createCommands(userInput, league);
 
-        Menu menu = new Menu(printStream, bufferedReader, commands);
+        Menu menu = new Menu(commands, userInput);
         menu.chooseOption();
         while (!menu.userDone()){
             menu.executeCurrentCommand();
@@ -37,12 +39,12 @@ public class Main {
         }
     }
 
-    private static  List<Command> createCommands(PrintStream printStream, UserInput userInput, League league) {
+    private static  List<Command> createCommands(UserInput userInput, League league) {
         List<Command> commands = new ArrayList<Command>();
         commands.add(new ListPlayersCommand(league));
-        commands.add(new FindPlayerCommand(printStream, userInput, league));
-        commands.add(new DisplayTeamCommand(printStream, userInput, league));
-        commands.add(new TradePlayerCommand(printStream, userInput, league));
+        commands.add(new FindPlayerCommand(userInput, league));
+        commands.add(new DisplayTeamCommand(userInput, league));
+        commands.add(new TradePlayerCommand(userInput, league));
         return commands;
     }
 

@@ -3,45 +3,38 @@ package com.thoughtworks.league_manager.menu;
 import com.thoughtworks.league_manager.command.Command;
 import com.thoughtworks.league_manager.command.QuitCommand;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.PrintStream;
 import java.util.List;
 
 import static java.lang.Integer.parseInt;
 
 public class Menu {
-    private PrintStream printStream;
-    private BufferedReader bufferedReader;
     private List<Command> commands;
+    private UserInput userInput;
     private static final QuitCommand quitCommand = new QuitCommand();
     private Command currentCommand;
 
-    public Menu(PrintStream printStream, BufferedReader bufferedReader, List<Command> commands) {
-        this.printStream = printStream;
-        this.bufferedReader = bufferedReader;
+    public Menu(List<Command> commands, UserInput userInput) {
         this.commands = commands;
+        this.userInput = userInput;
         this.commands.add(quitCommand);
         currentCommand = quitCommand;
 
     }
 
     private Command chooseCommand() throws IOException {
-        printStream.println("Please enter the number of the option you choose");
-        listOptions();
-        return commands.get(readOptionNumber());
+        String prompt = "\n\nPlease enter the number of the option you choose\n" + options();
+        String optionNumberAsString = userInput.input(prompt);
+        return commands.get(parseInt(optionNumberAsString) - 1);
     }
 
-    private int readOptionNumber() throws IOException {
-        String userInput = bufferedReader.readLine();
-        return parseInt(userInput) - 1;
-    }
-
-    private void listOptions() {
+    private String options() {
+        String options = "";
         int commandNumber = 1;
         for (Command command : commands){
-            printStream.println(commandNumber++ + ") " + command.name());
+            options += commandNumber++ + ") " + command.name() + "\n";
         }
+        return options;
     }
 
     public void executeCurrentCommand() {

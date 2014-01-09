@@ -15,7 +15,11 @@ public abstract class LeagueMember {
         return this.name.equals(name);
     }
 
-    boolean isOn(String team){
+    public boolean isOn(String team){
         return this.team.equals(team);
+    }
+
+    public void setTeam(String team) {
+        this.team = team;
     }
 }

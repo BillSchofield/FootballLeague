@@ -15,8 +15,4 @@ public class Player extends LeagueMember {
     public String formattedInformation(){
         return String.format("%-15s %-15s %-20s %-15s", name, team, number, age);
     }
-
-    public void setTeam(String team) {
-        this.team = team;
-    }
 }

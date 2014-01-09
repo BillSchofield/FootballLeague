@@ -1,18 +1,13 @@
 package com.thoughtworks.league_manager.command;
 
-import com.thoughtworks.league_manager.model.League;
-import com.thoughtworks.league_manager.model.Player;
 import com.thoughtworks.league_manager.menu.UserInput;
-
-import java.io.PrintStream;
+import com.thoughtworks.league_manager.model.League;
 
 public class TradePlayerCommand implements Command {
-    private final PrintStream printStream;
     private final UserInput userInput;
     private final League league;
 
-    public TradePlayerCommand(PrintStream printStream, UserInput userInput, League league) {
-        this.printStream = printStream;
+    public TradePlayerCommand(UserInput userInput, League league) {
         this.userInput = userInput;
         this.league = league;
     }
@@ -20,15 +15,9 @@ public class TradePlayerCommand implements Command {
     @Override
     public void execute() {
         String playerName = userInput.input("Enter the name of the player to trade:");
-        Player player = league.findPlayer(playerName);
-        if (player == null){
-            printStream.println("Player not found.");
-        }
-        else {
-            String newTeamName = userInput.input("Enter the player's new team:");
-            player.setTeam(newTeamName);
-        }
-
+        String newTeam = userInput.input("Enter the name of the player's new team:");
+        league.tradePlayer(playerName, newTeam);
+        league.displayPlayer(playerName);
     }
 
     @Override
