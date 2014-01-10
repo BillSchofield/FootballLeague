@@ -1,10 +1,10 @@
 package com.thoughtworks.league_manager.menu;
 
-import com.thoughtworks.league_manager.model.LeagueMember;
+import com.thoughtworks.league_manager.model.TeamMember;
 
 import java.io.PrintStream;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 import static java.lang.String.format;
 
@@ -15,16 +15,16 @@ public class LeagueMemberPrinter {
         this.printStream = printStream;
     }
 
-    public void print(String title, List<LeagueMember> members) {
+    public void print(String title, Set<TeamMember> members) {
         printStream.println(title);
         printStream.println(format("%-15s %-15s %-20s %-15s", "Name", "Team", "Number/Title", "Age"));
-        for (LeagueMember leagueMember : members) {
-            printStream.println(leagueMember.formattedInformation());
+        for (TeamMember teamMember : members) {
+            printStream.println(teamMember.formattedInformation());
         }
     }
 
-    public void print(String title, LeagueMember member) {
-        List<LeagueMember> members = new ArrayList<LeagueMember>();
+    public void print(String title, TeamMember member) {
+        Set<TeamMember> members = new HashSet<TeamMember>();
         members.add(member);
         print(title, members);
     }

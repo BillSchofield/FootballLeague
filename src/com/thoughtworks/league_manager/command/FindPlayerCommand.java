@@ -14,8 +14,9 @@ public class FindPlayerCommand implements Command {
 
     @Override
     public void execute() {
-        String playerName = userInput.input("Enter the name of the player to find:");
-        league.displayPlayer(playerName);
+        String playerName = userInput.input("Enter the name of the player:");
+        String playerNumber = userInput.input("Enter the number of the player:");
+        league.displayPlayer(playerName, playerNumber);
     }
 
     @Override

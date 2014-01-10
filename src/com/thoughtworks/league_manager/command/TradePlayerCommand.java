@@ -14,10 +14,11 @@ public class TradePlayerCommand implements Command {
 
     @Override
     public void execute() {
-        String playerName = userInput.input("Enter the name of the player to trade:");
+        String playerName = userInput.input("Enter the player's name:");
+        String playerNumber = userInput.input("Enter the player's number:");
         String newTeam = userInput.input("Enter the name of the player's new team:");
-        league.tradePlayer(playerName, newTeam);
-        league.displayPlayer(playerName);
+        league.tradePlayer(playerName, playerNumber, newTeam);
+        league.displayPlayer(playerName, playerNumber);
     }
 
     @Override

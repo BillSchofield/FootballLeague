@@ -1,19 +1,13 @@
 package com.thoughtworks.league_manager.model;
 
-public abstract class LeagueMember {
-    protected final String name;
+public abstract class TeamMember {
     protected String team;
 
-    protected LeagueMember(String name, String team) {
-        this.name = name;
+    protected TeamMember(String team) {
         this.team = team;
     }
 
     public abstract String formattedInformation();
-
-    public boolean hasName(String name) {
-        return this.name.equals(name);
-    }
 
     public boolean isOn(String team){
         return this.team.equals(team);
