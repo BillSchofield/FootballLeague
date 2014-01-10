@@ -15,9 +15,9 @@ Lombok IntelliJ Plugin
 
 Project Lombok
 ==============
-[Lombok Video Demo](http://projectlombok.org/index.html)
-[Reducing Boilerplate Code with Project Lombok](http://jnb.ociweb.com/jnb/jnbJan2010.html)
+* [Lombok Video Demo](http://projectlombok.org/index.html)
+* [Reducing Boilerplate Code with Project Lombok](http://jnb.ociweb.com/jnb/jnbJan2010.html)
 
 Spring Context
 ==============
-[Spring Quick Start](http://projects.spring.io/spring-framework/)
+* [Spring Quick Start](http://projects.spring.io/spring-framework/)
