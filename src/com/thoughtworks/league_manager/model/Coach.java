@@ -3,12 +3,10 @@ package com.thoughtworks.league_manager.model;
 import static java.lang.String.format;
 
 public class Coach extends TeamMember {
-    private String name;
     private final String title;
 
     public Coach(String name, String team, String title) {
-        super(team);
-        this.name = name;
+        super(name, team);
         this.title = title;
     }
 

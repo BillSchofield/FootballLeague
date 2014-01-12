@@ -5,7 +5,7 @@ import com.thoughtworks.league_manager.menu.LeagueMemberPrinter;
 import java.util.*;
 
 public class League {
-    private static final TeamMember nullPlayer = new TeamMember("No Team") {
+    private static final TeamMember nullPlayer = new TeamMember("name", "team") {
         @Override
         public String formattedInformation() {
             return "Player not found.";
@@ -23,7 +23,7 @@ public class League {
     }
 
     public void listPlayers() {
-        Set<TeamMember> teamMembers = new HashSet<TeamMember>();
+        Set<TeamMember> teamMembers = new TreeSet<TeamMember>();
         teamMembers.addAll(players);
         teamMembers.addAll(coaches);
         leagueMemberPrinter.print("All Members in League", teamMembers);

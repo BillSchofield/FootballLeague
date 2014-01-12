@@ -2,13 +2,11 @@ package com.thoughtworks.league_manager.model;
 
 
 public class Player extends TeamMember {
-    private String name;
     private String number;
     private String age;
 
     public Player(String name, String team, String number, String age) {
-        super(team);
-        this.name = name;
+        super(name, team);
         this.number = number;
         this.age = age;
     }
@@ -20,15 +18,20 @@ public class Player extends TeamMember {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Player)) return false;
+        if (this == o) {
+            return true;
+        }
+
+        if (!(o instanceof Player)) {
+            return false;
+        }
 
         Player player = (Player) o;
 
-        if (!name.equals(player.name)) return false;
-        if (!number.equals(player.number)) return false;
-
-        return true;
+        if (!name.equals(player.name)) {
+            return false;
+        }
+        return number.equals(player.number);
     }
 
     @Override
@@ -36,5 +39,15 @@ public class Player extends TeamMember {
         int result = name.hashCode();
         result = 31 * result + number.hashCode();
         return result;
+    }
+
+    @Override
+    public boolean isOn(String team) {
+        return this.team.equals(team);
+    }
+
+    @Override
+    public void setTeam(String team) {
+        this.team = team;
     }
 }
