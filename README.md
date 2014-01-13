@@ -24,11 +24,29 @@ Install Lombok IntelliJ Plugin
 * Right click on 'Lombok Plugin' and choose 'Download and Install'
 * Hit 'Yes', close all dialogs, and select 'Restart' when prompted
 
+Install Spring
+--------------
+* Same as Lombok Library except use 'org.springframework:spring-context:3.2.4.RELEASE'
+
+Install Guava
+--------------
+* Same as Lombok Library except use 'com.google.guava:guava:15.0'
+
 Project Lombok
 ==============
 * [Lombok Video Demo](http://projectlombok.org/index.html)
 * [Lombok Features](http://projectlombok.org/features/index.html)
 * [Lombok IntelliJ Plugin support](https://code.google.com/p/lombok-intellij-plugin/wiki/FeatureList)
+
 Spring Context
 ==============
 * [Spring Quick Start](http://projects.spring.io/spring-framework/)
+
+Guava
+=====
+* [Guava Overview](https://code.google.com/p/guava-libraries/wiki/GuavaExplained)
+* [Fluent CompareTo](https://code.google.com/p/guava-libraries/wiki/CommonObjectUtilitiesExplained)
+* [Converting checked exceptions to unchecked exceptions](https://code.google.com/p/guava-libraries/wiki/ThrowablesExplained)
+* [Set union](https://code.google.com/p/guava-libraries/wiki/CollectionUtilitiesExplained)
+* [Functional Idioms](https://code.google.com/p/guava-libraries/wiki/FunctionalExplained)
+* [Static constructors for collections](https://code.google.com/p/guava-libraries/wiki/CollectionUtilitiesExplained)

@@ -11,6 +11,7 @@
     <orderEntry type="library" name="org.springframework:spring-context:3.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="org.projectlombok:lombok:1.12.2" level="project" />
     <orderEntry type="library" name="org.projectlombok:lombok:1.12.21" level="project" />
+    <orderEntry type="library" name="com.google.guava:guava:15.0" level="project" />
   </component>
 </module>
 
