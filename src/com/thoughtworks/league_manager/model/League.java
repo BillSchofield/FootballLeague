@@ -17,12 +17,12 @@ public class League {
         }
 
         @Override
-        public void setTeam(String team) {
+        public void team(String team) {
 
         }
 
         @Override
-        public String getName() {
+        public String name() {
             return "";
         }
 
@@ -91,6 +91,6 @@ public class League {
 
     public void tradePlayer(String name, String number, String newTeam) {
         TeamMember player = findPlayer(name, number, nullPlayer);
-        player.setTeam(newTeam);
+        player.team(newTeam);
     }
 }

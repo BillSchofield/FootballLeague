@@ -50,18 +50,17 @@ public class Player implements TeamMember {
     }
 
     @Override
-    public void setTeam(String team) {
-
+    public void team(String team) {
         this.team = team;
     }
 
     @Override
-    public String getName() {
+    public String name() {
         return name;
     }
 
     @Override
     public int compareTo(TeamMember other) {
-        return getName().compareTo(other.getName());
+        return name().compareTo(other.name());
     }
 }
