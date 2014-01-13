@@ -12,13 +12,13 @@ Install Lombok Library
 * Pick the 'From Maven' option
 * Type 'org.projectlombok:lombok' in the text box and hit the Magnifying Glass icon
 * Choose 'org.projectlombok:lombok:1.12.2' and hit 'Ok/Yes' in response to all dialogs
-*Ensure that this check-box is enabled: IntelliJ IDEA > Preferences > Compiler > Annotation Processors > Enable Annotation Processing
+* Ensure that this check-box is enabled: IntelliJ IDEA > Preferences > Compiler > Annotation Processors > Enable Annotation Processing
 
 Install Lombok IntelliJ Plugin
 ------------------------------
-Pull from Github
-Import into IntelliJ
-Lombok IntelliJ Plugin
+* Pull from Github
+* Import into IntelliJ
+* Lombok IntelliJ Plugin
 * IntelliJ IDEA > Preferences > Plugins > Browse Repositories...
 * Search for 'lombok plugin'
 * Right click on 'Lombok Plugin' and choose 'Download and Install'
