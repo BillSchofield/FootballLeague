@@ -5,10 +5,30 @@ import com.thoughtworks.league_manager.menu.LeagueMemberPrinter;
 import java.util.*;
 
 public class League {
-    private static final TeamMember nullPlayer = new TeamMember("name", "team") {
+    private static final TeamMember nullPlayer = new TeamMember() {
         @Override
         public String formattedInformation() {
             return "Player not found.";
+        }
+
+        @Override
+        public boolean isOn(String team) {
+            return false;
+        }
+
+        @Override
+        public void setTeam(String team) {
+
+        }
+
+        @Override
+        public String getName() {
+            return "";
+        }
+
+        @Override
+        public int compareTo(TeamMember o) {
+            return 0;
         }
     };
 

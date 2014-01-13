@@ -1,12 +1,15 @@
 package com.thoughtworks.league_manager.model;
 
 
-public class Player extends TeamMember {
+public class Player implements TeamMember {
+    private String name;
+    private String team;
     private String number;
     private String age;
 
     public Player(String name, String team, String number, String age) {
-        super(name, team);
+        this.name = name;
+        this.team = team;
         this.number = number;
         this.age = age;
     }
@@ -48,6 +51,17 @@ public class Player extends TeamMember {
 
     @Override
     public void setTeam(String team) {
+
         this.team = team;
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public int compareTo(TeamMember other) {
+        return getName().compareTo(other.getName());
     }
 }

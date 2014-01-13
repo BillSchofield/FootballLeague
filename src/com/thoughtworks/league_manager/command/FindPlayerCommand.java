@@ -21,6 +21,6 @@ public class FindPlayerCommand implements Command {
 
     @Override
     public String name() {
-        return "Find Player by Name";
+        return "Find Player by Name and Number";
     }
 }
