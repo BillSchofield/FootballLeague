@@ -5,6 +5,17 @@ This is a simple project that we will simplify using Spring, Project Lombok, and
 
 Setup
 =====
+Install Lombok Library
+----------------------
+* Go to File > Project Structure > Libraries
+* Click the 'New Project Library' button (a '+' button near the top of the window)
+* Pick the 'From Maven' option
+* Type 'org.projectlombok:lombok' in the text box and hit the Magnifying Glass icon
+* Choose 'org.projectlombok:lombok:1.12.2' and hit 'Ok/Yes' in response to all dialogs
+*Ensure that this check-box is enabled: IntelliJ IDEA > Preferences > Compiler > Annotation Processors > Enable Annotation Processing
+
+Install Lombok IntelliJ Plugin
+------------------------------
 Pull from Github
 Import into IntelliJ
 Lombok IntelliJ Plugin

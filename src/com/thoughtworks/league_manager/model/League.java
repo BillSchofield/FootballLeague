@@ -58,6 +58,8 @@ public class League {
         TeamMember player = findPlayer(name, number, nullPlayer);
         if (player != nullPlayer){
             leagueMemberPrinter.print("", player);
+        } else {
+            leagueMemberPrinter.playerNotFound(name, number);
         }
     }
 

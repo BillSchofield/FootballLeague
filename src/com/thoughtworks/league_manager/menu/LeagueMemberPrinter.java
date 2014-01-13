@@ -28,4 +28,8 @@ public class LeagueMemberPrinter {
         members.add(member);
         print(title, members);
     }
+
+    public void playerNotFound(String name, String number) {
+        printStream.println("Player '" + name +"' with number '" + number + "' not found.");
+    }
 }
