@@ -1,9 +1,11 @@
 package com.thoughtworks.league_manager.model;
 
 import com.thoughtworks.league_manager.menu.LeagueMemberPrinter;
+import lombok.AllArgsConstructor;
 
 import java.util.*;
 
+@AllArgsConstructor
 public class League {
     private static final TeamMember nullPlayer = new TeamMember() {
         @Override
@@ -17,8 +19,8 @@ public class League {
         }
 
         @Override
-        public void team(String team) {
-
+        public TeamMember team(String team) {
+            return this;
         }
 
         @Override
@@ -32,15 +34,9 @@ public class League {
         }
     };
 
+    private LeagueMemberPrinter leagueMemberPrinter;
     private Set<Player> players;
     private Set<Coach> coaches;
-    private LeagueMemberPrinter leagueMemberPrinter;
-
-    public League(LeagueMemberPrinter leagueMemberPrinter, Set<Player> players, Set<Coach> coaches) {
-        this.leagueMemberPrinter = leagueMemberPrinter;
-        this.players = players;
-        this.coaches = coaches;
-    }
 
     public void listPlayers() {
         Set<TeamMember> teamMembers = new TreeSet<TeamMember>();

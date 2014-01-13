@@ -2,15 +2,12 @@ package com.thoughtworks.league_manager.command;
 
 import com.thoughtworks.league_manager.menu.UserInput;
 import com.thoughtworks.league_manager.model.League;
+import lombok.AllArgsConstructor;
 
+@AllArgsConstructor
 public class FindPlayerCommand implements Command {
-    private League league;
     private UserInput userInput;
-
-    public FindPlayerCommand(UserInput userInput, League league) {
-        this.userInput = userInput;
-        this.league = league;
-    }
+    private League league;
 
     @Override
     public void execute() {

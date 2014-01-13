@@ -1,26 +1,19 @@
 package com.thoughtworks.league_manager.menu;
 
 import com.thoughtworks.league_manager.command.Command;
-import com.thoughtworks.league_manager.command.QuitCommand;
+import lombok.AllArgsConstructor;
 
 import java.io.IOException;
 import java.util.List;
 
 import static java.lang.Integer.parseInt;
 
+@AllArgsConstructor
 public class Menu {
     private List<Command> commands;
     private UserInput userInput;
-    private static final QuitCommand quitCommand = new QuitCommand();
+    private final Command quitCommand;
     private Command currentCommand;
-
-    public Menu(List<Command> commands, UserInput userInput) {
-        this.commands = commands;
-        this.userInput = userInput;
-        this.commands.add(quitCommand);
-        currentCommand = quitCommand;
-
-    }
 
     private Command chooseCommand() throws IOException {
         String prompt = "\n\nPlease enter the number of the option you choose\n" + options();

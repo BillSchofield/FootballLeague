@@ -26,9 +26,10 @@ public class Main {
         LeagueMemberPrinter leagueMemberPrinter = new LeagueMemberPrinter(printStream);
         League league = new League(leagueMemberPrinter, players, coaches);
 
-        List<Command> commands = createCommands(userInput, league);
+        Command quitCommand = new QuitCommand();
+        List<Command> commands = createCommands(userInput, league, quitCommand);
 
-        Menu menu = new Menu(commands, userInput);
+        Menu menu = new Menu(commands, userInput, quitCommand, quitCommand);
         menu.chooseOption();
         while (!menu.userDone()){
             menu.executeCurrentCommand();
@@ -36,12 +37,13 @@ public class Main {
         }
     }
 
-    private static  List<Command> createCommands(UserInput userInput, League league) {
+    private static  List<Command> createCommands(UserInput userInput, League league, Command quitCommand) {
         List<Command> commands = new ArrayList<Command>();
         commands.add(new ListPlayersCommand(league));
         commands.add(new FindPlayerCommand(userInput, league));
         commands.add(new DisplayTeamCommand(userInput, league));
         commands.add(new TradePlayerCommand(userInput, league));
+        commands.add(quitCommand);
         return commands;
     }
 

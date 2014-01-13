@@ -1,17 +1,20 @@
 package com.thoughtworks.league_manager.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.experimental.Accessors;
+
 import static java.lang.String.format;
 
+@Accessors(fluent = true)
+@AllArgsConstructor
 public class Coach implements TeamMember {
+    @Getter
     private String name;
+    @Setter
     private String team;
     private final String title;
-
-    public Coach(String name, String team, String title) {
-        this.name = name;
-        this.team = team;
-        this.title = title;
-    }
 
     @Override
     public String formattedInformation() {
@@ -21,16 +24,6 @@ public class Coach implements TeamMember {
     @Override
     public boolean isOn(String team) {
         return this.team.equals(team);
-    }
-
-    @Override
-    public void team(String team) {
-        this.team = team;
-    }
-
-    @Override
-    public String name() {
-        return name;
     }
 
     @Override
