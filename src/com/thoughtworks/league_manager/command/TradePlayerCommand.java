@@ -2,11 +2,15 @@ package com.thoughtworks.league_manager.command;
 
 import com.thoughtworks.league_manager.menu.UserInput;
 import com.thoughtworks.league_manager.model.League;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class TradePlayerCommand implements Command {
     private final UserInput userInput;
     private final League league;
 
+    @Autowired
     public TradePlayerCommand(UserInput userInput, League league) {
         this.userInput = userInput;
         this.league = league;

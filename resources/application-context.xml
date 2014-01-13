@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="league" class="com.thoughtworks.league_manager.model.League">
+        <constructor-arg><ref bean="leagueMemberPrinter"/></constructor-arg>
+        <constructor-arg>
+            <set>
+                <bean class="com.thoughtworks.league_manager.model.Player">
+                    <constructor-arg value="Mary Sue"/>
+                    <constructor-arg value="Michigan"/>
+                    <constructor-arg value="7"/>
+                    <constructor-arg value="20"/>
+                </bean>
+
+                <bean class="com.thoughtworks.league_manager.model.Player">
+                    <constructor-arg value="Joe Bob"/>
+                    <constructor-arg value="Michigan"/>
+                    <constructor-arg value="14"/>
+                    <constructor-arg value="21"/>
+                </bean>
+            </set>
+        </constructor-arg>
+        <constructor-arg>
+            <set>
+                <bean class="com.thoughtworks.league_manager.model.Coach">
+                    <constructor-arg value="Bill"/>
+                    <constructor-arg value="Michigan"/>
+                    <constructor-arg value="Special Teams Coach"/>
+                </bean>
+                <bean class="com.thoughtworks.league_manager.model.Coach">
+                    <constructor-arg value="Pat"/>
+                    <constructor-arg value="Michigan"/>
+                    <constructor-arg value="Head Coach"/>
+                </bean>
+            </set>
+        </constructor-arg>
+    </bean>
+
+    <bean id="menu" class="com.thoughtworks.league_manager.menu.Menu">
+        <constructor-arg>
+            <list>
+                <bean class="com.thoughtworks.league_manager.command.ListPlayersCommand" />
+                <bean class="com.thoughtworks.league_manager.command.FindPlayerCommand" />
+                <bean class="com.thoughtworks.league_manager.command.DisplayTeamCommand" />
+                <bean class="com.thoughtworks.league_manager.command.TradePlayerCommand" />
+            </list>
+        </constructor-arg>
+        <constructor-arg>
+            <ref bean="userInput"></ref>
+        </constructor-arg>
+    </bean>
+</beans>

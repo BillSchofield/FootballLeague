@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8920f690-2426-46a9-8a9c-0068e12cd4ce" name="Default" comment="" />
+    <ignored path="FootballLeagueManager.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="FootballLeagueManager" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="29" selection-start="381" selection-end="381" vertical-scroll-proportion="-5.8461537" vertical-offset="0" max-vertical-offset="475">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-context.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/application-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="25" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.96484375" vertical-offset="0" max-vertical-offset="1159">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="1368">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="League.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/League.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="59" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="1938">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/Command.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/ListPlayersCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/UncheckedIOException.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/Coach.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/LeagueMemberPrinter.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/League.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/UserInput.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/FindPlayerCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/DisplayTeamCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/TradePlayerCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/LeagueMember.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/QuitCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/Menu.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/io/Menu.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/LeagueMember.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/Accessors.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/TeamMember.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/Coach.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/menu/Menu.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/menu/UserInput.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/main/ProductionConfig.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/DisplayTeamCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/FindPlayerCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/ListPlayersCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/QuitCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/TradePlayerCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/menu/LeagueMemberPrinter.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/League.java" />
+        <option value="$PROJECT_DIR$/resources/application-context.xml" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/ProductionConfig.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/league_manager/main/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="77" />
+    <option name="y" value="22" />
+    <option name="width" value="1363" />
+    <option name="height" value="878" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="league_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="league_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="league_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="league_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="league_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FootballLeagueManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/lombok-plugin.jar!/" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.thoughtworks.league_manager.model" />
+      <recent name="com.thoughtworks.league_manager" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.league_manager.main.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FootballLeagueManager" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8920f690-2426-46a9-8a9c-0068e12cd4ce" name="Default" comment="" />
+      <created>1388010000483</created>
+      <updated>1388010000483</updated>
+      <workItem from="1388010002506" duration="10875000" />
+      <workItem from="1389285207583" duration="8019000" />
+      <workItem from="1389297681145" duration="622000" />
+      <workItem from="1389298319612" duration="149000" />
+      <workItem from="1389298484027" duration="954000" />
+      <workItem from="1389302515611" duration="228000" />
+      <workItem from="1389302758936" duration="965000" />
+      <workItem from="1389309098264" duration="2908000" />
+      <workItem from="1389364773701" duration="5617000" />
+      <workItem from="1389390183985" duration="1583000" />
+      <workItem from="1389393624257" duration="2447000" />
+      <workItem from="1389556169229" duration="5296000" />
+      <workItem from="1389563141723" duration="1166000" />
+      <workItem from="1389565612700" duration="590000" />
+      <workItem from="1389624762645" duration="10932000" />
+      <workItem from="1389639152458" duration="5228000" />
+    </task>
+    <task id="LOCAL-00001" summary="Blank Slate">
+      <created>1388010239241</created>
+      <updated>1388010239241</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactored to introduce concept of a player.">
+      <created>1388010916425</created>
+      <updated>1388010916425</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Players now have teams, numbers, and ages. The list of league players prints this information in named columns.&quot;">
+      <created>1388011530529</created>
+      <updated>1388011530529</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Refactored to introduce menu concept.">
+      <created>1388172194028</created>
+      <updated>1388172194028</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added menu (with the single option to List Players)">
+      <created>1388175521188</created>
+      <updated>1388175521188</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added FindPlayerCommand&#10;">
+      <created>1388176360330</created>
+      <updated>1388176360330</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Find player">
+      <created>1388439452898</created>
+      <updated>1388439452898</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Display team&#10;">
+      <created>1388693334733</created>
+      <updated>1388693334733</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Trade player to new team">
+      <created>1388694866039</created>
+      <updated>1388694866039</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added new packages. Moved user choice concepts into menu.">
+      <created>1389288523554</created>
+      <updated>1389288523555</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Improved cohesion of io operations. League has better encapsulation.">
+      <created>1389296374070</created>
+      <updated>1389296374070</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added Lombok plugin?">
+      <created>1389298385870</created>
+      <updated>1389298385870</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Find Player by name and number instead of just name.">
+      <created>1389367816912</created>
+      <updated>1389367816912</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added Spring Dependency">
+      <created>1389369088542</created>
+      <updated>1389369088542</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Bullet lists in readme">
+      <created>1389369169099</created>
+      <updated>1389369169099</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added .idea directory">
+      <created>1389369843938</created>
+      <updated>1389369843938</updated>
+    </task>
+    <task id="LOCAL-00017" summary="TeamMembers are now Comparable so they appear in order by name when listed. Moved name and team back into TeamPlayer and made it an abstract base class.">
+      <created>1389557846507</created>
+      <updated>1389557846507</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Setup annotation building properly and added 'Install Lombok Library' and 'Enable Annotation Processing' steps to README">
+      <created>1389626796870</created>
+      <updated>1389626796870</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fixed formatting in README">
+      <created>1389626911347</created>
+      <updated>1389626911347</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Changed TeamMember to interface">
+      <created>1389628170561</created>
+      <updated>1389628170561</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Updated README with better links">
+      <created>1389628921858</created>
+      <updated>1389628921858</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Changed to fluent accessors">
+      <created>1389629973533</created>
+      <updated>1389629973533</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Lomboked the project. Note that SneakyThrows is not supported by the current version of the IntelliJ Lombok plugin.">
+      <created>1389631263120</created>
+      <updated>1389631263120</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Springified the project">
+      <created>1389645929376</created>
+      <updated>1389645929376</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="57579000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="77" y="22" width="1363" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29643765" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994911" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25662377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45165396" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Blank Slate" />
+    <MESSAGE value="Prints all players in League" />
+    <MESSAGE value="Refactored to introduce concept of a player." />
+    <MESSAGE value="Players now have teams, numbers, and ages. The list of league players prints this information in named columns.&quot;" />
+    <MESSAGE value="Refactored to introduce menu concept." />
+    <MESSAGE value="Added menu (with the single option to List Players)" />
+    <MESSAGE value="Added FindPlayerCommand&#10;" />
+    <MESSAGE value="Find player" />
+    <MESSAGE value="Display team&#10;" />
+    <MESSAGE value="Trade player to new team" />
+    <MESSAGE value="Added new packages. Moved user choice concepts into menu." />
+    <MESSAGE value="Improved cohesion of io operations. League has better encapsulation." />
+    <MESSAGE value="Added Lombok plugin?" />
+    <MESSAGE value="Find Player by name and number instead of just name." />
+    <MESSAGE value="Added Spring Dependency" />
+    <MESSAGE value="Bullet lists in readme" />
+    <MESSAGE value="Added .idea directory" />
+    <MESSAGE value="TeamMembers are now Comparable so they appear in order by name when listed. Moved name and team back into TeamPlayer and made it an abstract base class." />
+    <MESSAGE value="Setup annotation building properly and added 'Install Lombok Library' and 'Enable Annotation Processing' steps to README" />
+    <MESSAGE value="Fixed formatting in README" />
+    <MESSAGE value="Changed TeamMember to interface" />
+    <MESSAGE value="Updated README with better links" />
+    <MESSAGE value="Changed to fluent accessors" />
+    <MESSAGE value="Lomboked the project. Note that SneakyThrows is not supported by the current version of the IntelliJ Lombok plugin." />
+    <MESSAGE value="Springified the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Springified the project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/TeamMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="551">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/TradePlayerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/menu/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="29" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1083" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="456">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="37" selection-start="793" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="344" max-vertical-offset="1444">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/League.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="34" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.0" vertical-offset="1121" max-vertical-offset="1520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/menu/LeagueMemberPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="16" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="703" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/TeamMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="551">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/TradePlayerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/menu/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="29" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1083" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="456">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="37" selection-start="793" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="344" max-vertical-offset="1444">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/League.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="34" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.0" vertical-offset="1046" max-vertical-offset="1520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/menu/LeagueMemberPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="16" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="703" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/TeamMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/TradePlayerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/menu/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="29" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1083" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="456">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="17" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/QuitCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="361" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/DisplayTeamCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/TradePlayerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="12" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/FindPlayerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="26" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/menu/UserInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="20" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="703" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="15" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="551">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/TeamMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/menu/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="836" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="819" column="16" selection-start="27913" selection-end="27913" vertical-scroll-proportion="0.33264887" vertical-offset="14886" max-vertical-offset="21052" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/src.zip!/java/io/IOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="6" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="1596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="13" selection-start="6440" selection-end="6440" vertical-scroll-proportion="-8.133471" vertical-offset="6697" max-vertical-offset="11077" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="17" selection-start="3718" selection-end="3718" vertical-scroll-proportion="0.0" vertical-offset="1212" max-vertical-offset="2299" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="64" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.5887446" vertical-offset="279" max-vertical-offset="741" />
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/TeamMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="21" selection-start="219" selection-end="219" vertical-scroll-proportion="0.1772388" vertical-offset="0" max-vertical-offset="536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/Coach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/menu/UncheckedIOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="58" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="36" selection-start="3145" selection-end="3145" vertical-scroll-proportion="0.33203125" vertical-offset="1141" max-vertical-offset="22363" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/menu/UserInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/FindPlayerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="14" selection-start="409" selection-end="409" vertical-scroll-proportion="0.28078818" vertical-offset="0" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/ListPlayersCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="14" selection-start="322" selection-end="322" vertical-scroll-proportion="0.31198686" vertical-offset="0" max-vertical-offset="609">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/QuitCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="10" selection-start="167" selection-end="167" vertical-scroll-proportion="0.18719211" vertical-offset="0" max-vertical-offset="609">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/TradePlayerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="14" selection-start="422" selection-end="422" vertical-scroll-proportion="0.25123152" vertical-offset="18" max-vertical-offset="665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/menu/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="44" selection-start="8" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/command/DisplayTeamCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="14" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/menu/LeagueMemberPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/League.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="59" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/ProductionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="676" selection-end="676" vertical-scroll-proportion="0.7096774" vertical-offset="0" max-vertical-offset="589">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="381" selection-end="381" vertical-scroll-proportion="-5.8461537" vertical-offset="0" max-vertical-offset="475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/league_manager/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="1368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/application-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="25" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.96484375" vertical-offset="0" max-vertical-offset="1159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>com.google.guava:guava:14.0.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|FootballLeagueManager</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.projectlombok:lombok:1.12.21</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

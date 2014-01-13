@@ -1,6 +1,8 @@
 package com.thoughtworks.league_manager.menu;
 
 import com.thoughtworks.league_manager.model.TeamMember;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.io.PrintStream;
 import java.util.HashSet;
@@ -8,9 +10,11 @@ import java.util.Set;
 
 import static java.lang.String.format;
 
+@Component
 public class LeagueMemberPrinter {
     private PrintStream printStream;
 
+    @Autowired
     public LeagueMemberPrinter(PrintStream printStream) {
         this.printStream = printStream;
     }
