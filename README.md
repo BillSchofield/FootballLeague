@@ -27,8 +27,8 @@ Install Lombok IntelliJ Plugin
 Project Lombok
 ==============
 * [Lombok Video Demo](http://projectlombok.org/index.html)
-* [Reducing Boilerplate Code with Project Lombok](http://jnb.ociweb.com/jnb/jnbJan2010.html)
-
+* [Lombok Features](http://projectlombok.org/features/index.html)
+* [Lombok IntelliJ Plugin support](https://code.google.com/p/lombok-intellij-plugin/wiki/FeatureList)
 Spring Context
 ==============
 * [Spring Quick Start](http://projects.spring.io/spring-framework/)
