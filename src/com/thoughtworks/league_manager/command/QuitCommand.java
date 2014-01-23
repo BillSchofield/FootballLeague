@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 public class QuitCommand implements Command {
     @Override
     public void execute() {
-
     }
 
     @Override
