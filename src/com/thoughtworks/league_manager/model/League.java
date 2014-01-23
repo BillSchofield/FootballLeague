@@ -1,9 +1,12 @@
 package com.thoughtworks.league_manager.model;
 
 import com.thoughtworks.league_manager.menu.LeagueMemberPrinter;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.*;
 
+@Component
 public class League {
     private static final TeamMember nullPlayer = new TeamMember() {
         @Override
@@ -36,6 +39,7 @@ public class League {
     private Set<Coach> coaches;
     private LeagueMemberPrinter leagueMemberPrinter;
 
+    @Autowired
     public League(LeagueMemberPrinter leagueMemberPrinter, Set<Player> players, Set<Coach> coaches) {
         this.leagueMemberPrinter = leagueMemberPrinter;
         this.players = players;
