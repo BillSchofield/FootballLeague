@@ -4,14 +4,12 @@ import com.thoughtworks.league_manager.model.League;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import lombok.AllArgsConstructor;
+
 @Component
+@AllArgsConstructor(onConstructor=@_(@Autowired))
 public class ListPlayersCommand implements Command {
     private League league;
-
-    @Autowired
-    public ListPlayersCommand(League league) {
-        this.league = league;
-    }
 
     @Override
     public void execute() {

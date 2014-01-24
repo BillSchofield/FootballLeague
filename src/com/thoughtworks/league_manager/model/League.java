@@ -3,9 +3,13 @@ package com.thoughtworks.league_manager.model;
 import com.thoughtworks.league_manager.menu.LeagueMemberPrinter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import java.util.*;
+import lombok.AllArgsConstructor;
 
 import java.util.*;
 
+
+@AllArgsConstructor(onConstructor=@_(@Autowired))
 @Component
 public class League {
     private static final TeamMember nullPlayer = new TeamMember() {
@@ -20,8 +24,8 @@ public class League {
         }
 
         @Override
-        public void team(String team) {
-
+        public TeamMember team(String team) {
+            return this;
         }
 
         @Override
@@ -35,16 +39,9 @@ public class League {
         }
     };
 
+    private LeagueMemberPrinter leagueMemberPrinter;
     private Set<Player> players;
     private Set<Coach> coaches;
-    private LeagueMemberPrinter leagueMemberPrinter;
-
-    @Autowired
-    public League(LeagueMemberPrinter leagueMemberPrinter, Set<Player> players, Set<Coach> coaches) {
-        this.leagueMemberPrinter = leagueMemberPrinter;
-        this.players = players;
-        this.coaches = coaches;
-    }
 
     public void listPlayers() {
         Set<TeamMember> teamMembers = new TreeSet<TeamMember>();

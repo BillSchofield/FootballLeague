@@ -5,16 +5,13 @@ import com.thoughtworks.league_manager.model.League;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
-public class FindPlayerCommand implements Command {
-    private League league;
-    private UserInput userInput;
+import lombok.AllArgsConstructor;
 
-    @Autowired
-    public FindPlayerCommand(UserInput userInput, League league) {
-        this.userInput = userInput;
-        this.league = league;
-    }
+@Component
+@AllArgsConstructor(onConstructor=@_(@Autowired))
+public class FindPlayerCommand implements Command {
+    private UserInput userInput;
+    private League league;
 
     @Override
     public void execute() {

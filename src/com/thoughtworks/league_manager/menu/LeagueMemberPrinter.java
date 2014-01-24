@@ -3,21 +3,16 @@ package com.thoughtworks.league_manager.menu;
 import com.thoughtworks.league_manager.model.TeamMember;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
+import lombok.AllArgsConstructor;
 import java.io.PrintStream;
 import java.util.HashSet;
 import java.util.Set;
-
 import static java.lang.String.format;
 
+@AllArgsConstructor(onConstructor=@_(@Autowired))
 @Component
 public class LeagueMemberPrinter {
     private PrintStream printStream;
-
-    @Autowired
-    public LeagueMemberPrinter(PrintStream printStream) {
-        this.printStream = printStream;
-    }
 
     public void print(String title, Set<TeamMember> members) {
         printStream.println(title);

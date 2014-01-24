@@ -2,21 +2,16 @@ package com.thoughtworks.league_manager.menu;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
+import lombok.AllArgsConstructor;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.PrintStream;
 
+@AllArgsConstructor(onConstructor=@_(@Autowired))
 @Component
 public class UserInput {
     private PrintStream printStream;
     private BufferedReader bufferedReader;
-
-    @Autowired
-    public UserInput(PrintStream printStream, BufferedReader bufferedReader) {
-        this.printStream = printStream;
-        this.bufferedReader = bufferedReader;
-    }
 
     public String input(String prompt) {
         printStream.println(prompt);

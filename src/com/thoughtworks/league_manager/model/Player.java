@@ -1,18 +1,22 @@
 package com.thoughtworks.league_manager.model;
 
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.experimental.Accessors;
+import org.springframework.beans.factory.annotation.Autowired;
 
+@Accessors(fluent = true)
+@EqualsAndHashCode(of={"name", "number"})
+@AllArgsConstructor(onConstructor=@_(@Autowired))
 public class Player implements TeamMember {
+    @Getter
     private String name;
+    @Setter
     private String team;
     private String number;
     private String age;
-
-    public Player(String name, String team, String number, String age) {
-        this.name = name;
-        this.team = team;
-        this.number = number;
-        this.age = age;
-    }
 
     @Override
     public String formattedInformation(){
@@ -20,43 +24,8 @@ public class Player implements TeamMember {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        }
-
-        if (!(o instanceof Player)) {
-            return false;
-        }
-
-        Player player = (Player) o;
-
-        if (!name.equals(player.name)) {
-            return false;
-        }
-        return number.equals(player.number);
-    }
-
-    @Override
-    public int hashCode() {
-        int result = name.hashCode();
-        result = 31 * result + number.hashCode();
-        return result;
-    }
-
-    @Override
     public boolean isOn(String team) {
         return this.team.equals(team);
-    }
-
-    @Override
-    public void team(String team) {
-        this.team = team;
-    }
-
-    @Override
-    public String name() {
-        return name;
     }
 
     @Override

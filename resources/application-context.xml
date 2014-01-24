@@ -47,6 +47,7 @@
                 <bean class="com.thoughtworks.league_manager.command.FindPlayerCommand" />
                 <bean class="com.thoughtworks.league_manager.command.DisplayTeamCommand" />
                 <bean class="com.thoughtworks.league_manager.command.TradePlayerCommand" />
+                <bean class="com.thoughtworks.league_manager.command.QuitCommand" />
             </list>
         </constructor-arg>
         <constructor-arg>
